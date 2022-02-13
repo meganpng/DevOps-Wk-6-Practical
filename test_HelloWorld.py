@@ -6,8 +6,8 @@ def test_HelloWorld_NoInput():
     assert result == "Hello World!"
 
 @pytest.mark.parametrize("name, expectedResult",
-[("Danny", "Hello Danny!"), ("Caleb", "Hello Caleb!"),
-("Eugene", "Hello Eugene!")])
+[("Danny", "Hello Danny!!"), ("Caleb", "Hello Caleb!!"),
+("Eugene", "Hello Eugene!!")])
 
 
 def test_HelloWorld_UserInput(name, expectedResult):
